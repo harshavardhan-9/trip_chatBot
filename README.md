@@ -87,14 +87,9 @@ To deploy your app, open the project in Lovable and click **Share → Publish**.
 
 Here’s a preview of the Dubai Travel Assistant interface:
 
-![Screenshot 1](./screenshots/screenshot1.png)
+![Screenshot 1](./screenshots/screenshot1.jpg)
 
+![Screenshot 2](./screenshots/screenshot2.jpg)
 
-![Screenshot 2](./screenshots/screenshot2.png)
-
----
-
-## License
-
-MIT License
+![Screenshot 3](./screenshots/screenshot3.jpg)
 
