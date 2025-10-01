@@ -48,7 +48,7 @@ The chatbot uses **Lovable Cloud** with Supabase Edge Functions and Google Gemin
 
 * **Frontend:** React, TypeScript, Vite, TailwindCSS, shadcn-ui
 * **Backend:** Supabase Edge Functions
-* **AI:**Google Gemini 2.5 Flash
+* **AI:** Google Gemini 2.5 Flash
 
 ---
 
