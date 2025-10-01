@@ -1,73 +1,100 @@
-# Welcome to your Lovable project
+# Dubai Travel Assistant – Your Personal Itinerary Chatbot
 
-## Project info
+## Overview
 
-**URL**: https://lovable.dev/projects/376961f9-1efa-4f64-859a-d3902b6098ec
+Dubai Travel Assistant is a personal AI-powered chatbot designed to answer any question about a **5-night Dubai itinerary from Bangalore**. Ask about flights, hotels, activities, or travel tips, and get precise answers — or “Not provided” if the information isn’t available.
 
-## How can I edit this code?
+This is a **full-stack project** with a **React frontend** and an **AI backend**, deployed seamlessly via Lovable Cloud.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/376961f9-1efa-4f64-859a-d3902b6098ec) and start prompting.
+* AI chatbot capable of understanding natural questions and retrieving itinerary information
+* Conversational interface with streaming responses
+* Provides specific answers or “Not provided” for unknown queries
+* Fully responsive single-page frontend built with **React + TailwindCSS**
+* Dubai-inspired design with elegant styling and smooth UX
+* Easily extendable to other itineraries or travel guides
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## How It Works
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+The chatbot uses **Lovable Cloud** with Supabase Edge Functions and Google Gemini AI:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. **User Input** – Enter your question in the chat interface
+2. **Edge Function** – The request is routed through a Supabase Edge Function
+3. **AI Processing** – Gemini 2.5 Flash model processes the query using the itinerary as context
+4. **Strict Rules** – AI only answers from the itinerary or returns **“Not provided”**
+5. **Response** – Answer is displayed in the frontend
 
-Follow these steps:
+**Flow:**
+`User question → Edge Function → Gemini AI + Itinerary Context → Answer → Display`
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+---
+
+## Tech Stack
+
+* **Frontend:** React, TypeScript, Vite, TailwindCSS, shadcn-ui
+* **Backend:** Supabase Edge Functions
+* **AI:**Google Gemini 2.5 Flash
+
+---
+
+## Getting Started
+
+### Local Development
+
+```bash
+# Clone the repository
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The frontend will be available at `http://localhost:8080`.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Backend Setup
 
-**Use GitHub Codespaces**
+No additional setup is needed — backend is preconfigured with:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+* Supabase Edge Functions
+* Required environment variables
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## Deployment
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+To deploy your app, open the project in Lovable and click **Share → Publish**. The app will go live instantly with both frontend and backend automatically deployed.
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/376961f9-1efa-4f64-859a-d3902b6098ec) and click on Share -> Publish.
+## Editing the Project
 
-## Can I connect a custom domain to my Lovable project?
+* **Preferred IDE:** Clone the repo, make edits, and push changes
+* **GitHub:** Edit files directly using the pencil icon
+* **GitHub Codespaces:** Launch a Codespace for cloud-based development
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Screenshots
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Here’s a preview of the Dubai Travel Assistant interface:
+
+![Screenshot 1](./screenshots/screenshot1.png)
+
+
+![Screenshot 2](./screenshots/screenshot2.png)
+
+---
+
+## License
+
+MIT License
+
