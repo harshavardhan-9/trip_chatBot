@@ -10,6 +10,13 @@ Here’s a preview of the Dubai Travel Assistant interface:
 
 ![Screenshot 3](./screenshots/screenshot3.jpg)
 
+## Demo Video
+
+You can see the Dubai Travel Assistant in action here:
+[Watch the demo on Loom](https://www.loom.com/share/3f14ad4820e147c79d52494340063cd9?sid=a0821c82-5534-40d1-ba0a-eb6319c5643e)
+
+---
+
 ## Overview
 
 Dubai Travel Assistant is a personal AI-powered chatbot designed to answer any question about a **5-night Dubai itinerary from Bangalore**. Ask about flights, hotels, activities, or travel tips, and get precise answers — or “Not provided” if the information isn’t available.
