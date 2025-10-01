@@ -1,5 +1,15 @@
 # Dubai Travel Assistant – Your Personal Itinerary Chatbot
 
+## Screenshots
+
+Here’s a preview of the Dubai Travel Assistant interface:
+
+![Screenshot 1](./screenshots/screenshot1.jpg)
+
+![Screenshot 2](./screenshots/screenshot2.jpg)
+
+![Screenshot 3](./screenshots/screenshot3.jpg)
+
 ## Overview
 
 Dubai Travel Assistant is a personal AI-powered chatbot designed to answer any question about a **5-night Dubai itinerary from Bangalore**. Ask about flights, hotels, activities, or travel tips, and get precise answers — or “Not provided” if the information isn’t available.
@@ -83,13 +93,4 @@ To deploy your app, open the project in Lovable and click **Share → Publish**.
 
 ---
 
-## Screenshots
-
-Here’s a preview of the Dubai Travel Assistant interface:
-
-![Screenshot 1](./screenshots/screenshot1.jpg)
-
-![Screenshot 2](./screenshots/screenshot2.jpg)
-
-![Screenshot 3](./screenshots/screenshot3.jpg)
 
