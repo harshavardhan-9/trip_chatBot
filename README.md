@@ -21,7 +21,7 @@ You can see the Dubai Travel Assistant in action here:
 
 Dubai Travel Assistant is a personal AI-powered chatbot designed to answer any question about a **5-night Dubai itinerary from Bangalore**. Ask about flights, hotels, activities, or travel tips, and get precise answers — or “Not provided” if the information isn’t available.
 
-This is a **full-stack project** with a **React frontend** and an **AI backend**, deployed seamlessly via Lovable Cloud.
+This is a **full-stack project** with a **React frontend** and an **AI backend**.
 
 ---
 
